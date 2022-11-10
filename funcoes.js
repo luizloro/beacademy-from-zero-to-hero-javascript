@@ -63,10 +63,58 @@ function() {
 
 // Função Anônima 
 
-(function () {
-    console.log("From zero to hero s2")
-})()//Autoexecução
+// (function () {
+//     console.log("From zero to hero s2")
+// })()//Autoexecução
 
-setTimeout(() => {
-    console.log('Vou levar 3s para ser executado')
-}, 3000);// Função ANÔNIMA que atrasa a execução no tempo que o usuário determinar
+// setTimeout(() => {
+//     console.log('Vou levar 3s para ser executado')
+// }, 3000);// Função ANÔNIMA que atrasa a execução no tempo que o usuário determinar
+
+
+//Parte 1
+
+    // let assunto
+
+    // function criarAssunto(assunto) {
+    //     return assunto
+    // }
+
+    // console.log(criarAssunto());
+
+
+//Parte 2
+
+// let assunto = 'Estudar' // Variável RECEBE um valor
+
+// function criarAssunto(assunto) {
+//     return assunto //
+// }
+
+// console.log(assunto) // RESPOSTA = "Estudar"
+// console.log(criarAssunto(assunto)); // RESPOSTA = "Estudar"
+
+
+//Parte 3
+
+// let assunto = 'Estudar' // Variável RECEBE um valor
+
+// function criarAssunto(assunto) {
+//     assunto = "Escutar Música" // Mudança de valor
+//     return assunto //
+// }
+
+// console.log(assunto) // RESPOSTA = 'Estudar'
+// console.log(criarAssunto(assunto)); // RESPOSTA = "Escutar Música"
+
+//Parte 4 
+
+let assunto = 'Estudar' // Variável RECEBE um valor
+
+function criarAssunto() {// SEM PARÂMETRO
+    assunto = "Escutar Música" // Mudança de valor
+    return assunto //
+}
+
+console.log(assunto) // RESPOSTA = 'Estudar'
+console.log(criarAssunto(assunto)); // RESPOSTA = "Escutar Música"
