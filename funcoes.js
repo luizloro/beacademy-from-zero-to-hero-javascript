@@ -53,9 +53,20 @@ function() {
 // arrowFunction()
 
 //Arrow Function
-const myFirstArrowFunction = (number1, number2) => {
-    let total = number1 + number2
-    return total;
-}
-const result = myFirstArrowFunction(20,80)
-console.log(result)
+// const myFirstArrowFunction = (number1, number2) => {
+//     let total = number1 + number2
+//     return total;
+// }
+// const result = myFirstArrowFunction(20,80)
+// console.log(result)
+
+
+// Função Anônima 
+
+(function () {
+    console.log("From zero to hero s2")
+})()//Autoexecução
+
+setTimeout(() => {
+    console.log('Vou levar 3s para ser executado')
+}, 3000);// Função ANÔNIMA que atrasa a execução no tempo que o usuário determinar
