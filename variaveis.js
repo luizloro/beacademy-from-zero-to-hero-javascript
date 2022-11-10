@@ -13,3 +13,14 @@
 
 // name = "Carlos"
 // console.log(name)
+
+//Globais
+//Hoisting -> SOMENTE O VAR REALIZA ESSE METODO(Pega uma variável dentro de um bloco e tranforma ela em variável global)
+console.log('Variável name existe aqui ?', name)
+
+{//Scopo (Bloco de código)
+    //Local
+    var name = 'Luan'
+}
+
+console.log('Variável name existe aqui ?', name)
