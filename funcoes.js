@@ -131,18 +131,49 @@ function() {
 // }
 
 
-//Callback
+//Callback (FUNÇÃO DENTRO DE OUTRA FUNÇÃO)
                     //Function
-function minhaFuncao(Callback) {
-    console.log('Inicio da minha função')
+// function minhaFuncao(Callback) {
+//     console.log('Inicio da minha função')
 
-    Callback(15, 15)
+//     Callback(15, 15)
 
-    console.log('Final da minha função')
+//     console.log('Final da minha função')
+// }
+
+// minhaFuncao(
+//     (num1, num2) => {
+//         return console.log(num1 + num2)
+//     }
+// )
+
+//Function Construct (INICIADAS COM LETRA MAIÚSCULA ex.: MinhaFuncao(){} )
+// Utilizada quando precisamos INSTANCIAR OU REAPROVEITAR A FUNÇÃO EM ALGUM DETERMINADO MOMENTO
+
+
+function Sum() {
+    this.num1,
+    this.num2,
+    this.calc = function (num1, num2) {
+         return total = num1 + num2
+    }
 }
 
-minhaFuncao(
-    (num1, num2) => {
-        return console.log(num1 + num2)
-    }
-)
+// const math = new Sum()
+// const num1 = math.num1 = 24
+// const num2 = math.num2 = 50
+
+// console.log(num1)
+// console.log(num2)
+// console.log(math.calc(num1, num2))
+
+// const math2 = new Sum()
+// console.log(math2.calc(50,64))
+
+const math = new Sum().calc(45,45)
+
+console.log(math)
+
+//Date Function Contruct PADRÃO do JS
+const data = new Date().getDate();
+console.log(data)
