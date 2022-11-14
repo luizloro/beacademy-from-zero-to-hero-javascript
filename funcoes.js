@@ -108,13 +108,24 @@ function() {
 // console.log(criarAssunto(assunto)); // RESPOSTA = "Escutar Música"
 
 //Parte 4 
+// O que acontece dentro da função, se INICIA e FINALIZA, dentro dela.
 
-let assunto = 'Estudar' // Variável RECEBE um valor
+// let assunto = 'Estudar' // Variável RECEBE um valor
 
-function criarAssunto() {// SEM PARÂMETRO
-    assunto = "Escutar Música" // Mudança de valor
-    return assunto //
-}
+// function criarAssunto() {// SEM PARÂMETRO
+//     assunto = "Escutar Música" // Mudança de valor
+//     return assunto //
+// }
 
-console.log(assunto) // RESPOSTA = 'Estudar'
-console.log(criarAssunto(assunto)); // RESPOSTA = "Escutar Música"
+// console.log(assunto) // RESPOSTA = 'Estudar'
+// console.log(criarAssunto(assunto)); // RESPOSTA = "Escutar Música"
+
+
+//Hosting SÓ FUNCIONA DO MODO ANTIGO DE DECLARAÇÃO DA FUNCÃO, UTILIZANDO O METÓDO DE VARIÁVEL COM FUNÇÃO ATRIBUIDA NÃO FUNCIONA
+
+// digaMinhaIdade()
+
+// function digaMinhaIdade() {
+//     return console.log(30)
+
+// }
