@@ -129,3 +129,20 @@ function() {
 //     return console.log(30)
 
 // }
+
+
+//Callback
+                    //Function
+function minhaFuncao(Callback) {
+    console.log('Inicio da minha função')
+
+    Callback(15, 15)
+
+    console.log('Final da minha função')
+}
+
+minhaFuncao(
+    (num1, num2) => {
+        return console.log(num1 + num2)
+    }
+)
