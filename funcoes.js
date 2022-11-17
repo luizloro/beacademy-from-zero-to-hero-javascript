@@ -151,13 +151,13 @@ function() {
 // Utilizada quando precisamos INSTANCIAR OU REAPROVEITAR A FUNÇÃO EM ALGUM DETERMINADO MOMENTO
 
 
-function Sum() {
-    this.num1,
-    this.num2,
-    this.calc = function (num1, num2) {
-         return total = num1 + num2
-    }
-}
+// function Sum() {
+//     this.num1,
+//     this.num2,
+//     this.calc = function (num1, num2) {
+//          return total = num1 + num2
+//     }
+// }
 
 // const math = new Sum()
 // const num1 = math.num1 = 24
@@ -170,10 +170,10 @@ function Sum() {
 // const math2 = new Sum()
 // console.log(math2.calc(50,64))
 
-const math = new Sum().calc(45,45)
+// const math = new Sum().calc(45,45)
 
-console.log(math)
+// console.log(math)
 
-//Date Function Contruct PADRÃO do JS
-const data = new Date().getDate();
-console.log(data)
+// //Date Function Contruct PADRÃO do JS
+// const data = new Date().getDate();
+// console.log(data)
