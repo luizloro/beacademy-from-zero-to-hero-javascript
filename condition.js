@@ -85,19 +85,19 @@
 //Throw and Try Catch
 
 //Saber minha idade
-function myAge(myAge){
-    if(!myAge) {
-        throw 'Você precisa colocar a idade!'
-    }
+// function myAge(myAge){
+//     if(!myAge) {
+//         throw 'Você precisa colocar a idade!'
+//     }
 
-    console.log('Eu executei depois do erro!')
-}
+//     console.log('Eu executei depois do erro!')
+// }
 
-try{
-    myAge()
-    console.log('Já tratei e deu certo')
-}catch(erro){
-    console.log(erro)
-}
+// try{
+//     myAge()
+//     console.log('Já tratei e deu certo')
+// }catch(erro){
+//     console.log(erro)
+// }
 
-console.log('Programa continua')
+// console.log('Programa continua')
