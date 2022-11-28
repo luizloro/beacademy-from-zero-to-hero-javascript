@@ -20,6 +20,7 @@ const videoGames = [
 ]
 
 for(let i = 0; i < videoGames.length; i++) {
-    console.log(`Consoles nº ${i + 1} é ${videoGames[i]}`)
+    console.log(`Consoles nº ${i + 1
+    } é ${videoGames[i]}`)
 
 }
